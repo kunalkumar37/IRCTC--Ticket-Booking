@@ -1,0 +1,33 @@
+[
+  {
+    "userId": "abcdef",
+    "name": "Kunal Kumar",
+    "password": "12345",
+    "hashpassword": "12345",
+    "ticketsBooked": [
+      {
+        "ticketId": "your_ticket_id",
+        "userId": "abcdefgh",
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "dateOfTravel": "2023-12-08T18:30:00Z",
+        "train": {
+          "trainId": "bacs",
+          "trainNo": "12345",
+          "seats": [
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 0]
+          ],
+          "stationTimes": {
+            "Bangalore": "13:50:00",
+            "Jaipur": "13:50:00",
+            "Delhi": "13:50:00"
+          },
+          "stations": ["Bangalore", "Jaipur", "Delhi"]
+        }
+      }
+    ]
+  }
+]
